@@ -1,0 +1,5 @@
+# Local build, cache and smoke-test artifacts. Nothing here is part of the project.
+.cache/
+/debrisledger
+/debrisledger.exe
+*.tmp

@@ -1,0 +1,480 @@
+{
+  "label": "fictional-leo-study-2029q1",
+  "epoch_s": 0,
+  "horizon_s": 259200,
+  "objects": [
+    {
+      "id": "frag-kestrel-118",
+      "name": "Kestrel debris fragment 118 (fictional)",
+      "class": "fragment",
+      "mass_kg": 42.0,
+      "area_m2": 0.35,
+      "orbit": {
+        "altitude_km": 552.5,
+        "inclination_deg": 53.1,
+        "raan_deg": 84.5,
+        "arg_lat_deg": 12.293118,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 6.5,
+      "attach_point": "none",
+      "notes": "co-altitude drifting fragment used to exercise the avoidance planner"
+    },
+    {
+      "id": "frag-kestrel-204",
+      "name": "Kestrel debris fragment 204 (fictional)",
+      "class": "fragment",
+      "mass_kg": 18.0,
+      "area_m2": 0.22,
+      "orbit": {
+        "altitude_km": 552.4,
+        "inclination_deg": 53.1,
+        "raan_deg": 84.5,
+        "arg_lat_deg": 12.25404,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 12.0,
+      "attach_point": "none",
+      "notes": "second fragment with an overlapping avoidance window"
+    },
+    {
+      "id": "frag-halite-88",
+      "name": "Halite debris fragment 88 (fictional)",
+      "class": "fragment",
+      "mass_kg": 3.2,
+      "area_m2": 0.05,
+      "orbit": {
+        "altitude_km": 552.6,
+        "inclination_deg": 53.1,
+        "raan_deg": 84.5,
+        "arg_lat_deg": 12.024427,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 41.0,
+      "attach_point": "none",
+      "notes": "very early closest approach, inside the commandable lead time"
+    },
+    {
+      "id": "rb-selenite-12",
+      "name": "Selenite upper stage 12 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 1860.0,
+      "area_m2": 15.1,
+      "orbit": {
+        "altitude_km": 553.2,
+        "inclination_deg": 53.1,
+        "raan_deg": 84.5,
+        "arg_lat_deg": 15.093635,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 0.8,
+      "attach_point": "adapter-ring"
+    },
+    {
+      "id": "rb-tessera-07",
+      "name": "Tessera upper stage 07 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 1420.0,
+      "area_m2": 12.4,
+      "orbit": {
+        "altitude_km": 707.0,
+        "inclination_deg": 98.2,
+        "raan_deg": 210.75,
+        "arg_lat_deg": 145.854797,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 1.2,
+      "attach_point": "adapter-ring"
+    },
+    {
+      "id": "rb-quartzite-31",
+      "name": "Quartzite upper stage 31 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 2240.0,
+      "area_m2": 18.6,
+      "orbit": {
+        "altitude_km": 705.9,
+        "inclination_deg": 98.2,
+        "raan_deg": 210.75,
+        "arg_lat_deg": 144.143948,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 2.4,
+      "attach_point": "grapple-fixture"
+    },
+    {
+      "id": "frag-mica-51",
+      "name": "Mica debris fragment 51 (fictional)",
+      "class": "fragment",
+      "mass_kg": 7.5,
+      "area_m2": 0.09,
+      "orbit": {
+        "altitude_km": 618.35,
+        "inclination_deg": 41.6,
+        "raan_deg": 15.2,
+        "arg_lat_deg": 300.70115,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 24.0,
+      "attach_point": "none"
+    },
+    {
+      "id": "frag-tremor-12",
+      "name": "Tremor debris fragment 12 (fictional)",
+      "class": "fragment",
+      "mass_kg": 5.6,
+      "area_m2": 0.08,
+      "orbit": {
+        "altitude_km": 619.0,
+        "inclination_deg": 41.6,
+        "raan_deg": 15.2,
+        "arg_lat_deg": 300.365027,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 33.0,
+      "attach_point": "none",
+      "notes": "one kilometre radial offset, screened but below the action threshold"
+    },
+    {
+      "id": "frag-lattice-07",
+      "name": "Lattice debris fragment 07 (fictional)",
+      "class": "fragment",
+      "mass_kg": 12.4,
+      "area_m2": 0.15,
+      "orbit": {
+        "altitude_km": 709.0,
+        "inclination_deg": 98.2,
+        "raan_deg": 210.75,
+        "arg_lat_deg": 148.509499,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 18.0,
+      "attach_point": "none",
+      "notes": "wide miss distance retained by the screening volume"
+    },
+    {
+      "id": "rb-basalt-19",
+      "name": "Basalt upper stage 19 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 1520.0,
+      "area_m2": 13.2,
+      "orbit": {
+        "altitude_km": 549.4,
+        "inclination_deg": 53.35,
+        "raan_deg": 96.4,
+        "arg_lat_deg": 210.55,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 3.1,
+      "attach_point": "adapter-ring"
+    },
+    {
+      "id": "frag-basalt-19a",
+      "name": "Basalt fragment 19a (fictional)",
+      "class": "fragment",
+      "mass_kg": 26.0,
+      "area_m2": 0.31,
+      "orbit": {
+        "altitude_km": 551.2,
+        "inclination_deg": 53.02,
+        "raan_deg": 98.1,
+        "arg_lat_deg": 30.2,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 88.0,
+      "attach_point": "none"
+    },
+    {
+      "id": "frag-basalt-19b",
+      "name": "Basalt fragment 19b (fictional)",
+      "class": "fragment",
+      "mass_kg": 14.0,
+      "area_m2": 0.18,
+      "orbit": {
+        "altitude_km": 554.8,
+        "inclination_deg": 52.85,
+        "raan_deg": 100.3,
+        "arg_lat_deg": 260.75,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 155.0,
+      "attach_point": "none"
+    },
+    {
+      "id": "rb-gneiss-44",
+      "name": "Gneiss upper stage 44 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 2650.0,
+      "area_m2": 21.4,
+      "orbit": {
+        "altitude_km": 709.8,
+        "inclination_deg": 98.35,
+        "raan_deg": 214.2,
+        "arg_lat_deg": 66.4,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 0.6,
+      "attach_point": "grapple-fixture",
+      "notes": "heavier than every declared chaser capture limit"
+    },
+    {
+      "id": "frag-gneiss-44a",
+      "name": "Gneiss fragment 44a (fictional)",
+      "class": "fragment",
+      "mass_kg": 31.0,
+      "area_m2": 0.4,
+      "orbit": {
+        "altitude_km": 704.2,
+        "inclination_deg": 98.05,
+        "raan_deg": 208.9,
+        "arg_lat_deg": 118.6,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 5.5,
+      "attach_point": "none"
+    },
+    {
+      "id": "rb-schist-58",
+      "name": "Schist upper stage 58 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 980.0,
+      "area_m2": 9.6,
+      "orbit": {
+        "altitude_km": 611.5,
+        "inclination_deg": 41.45,
+        "raan_deg": 14.8,
+        "arg_lat_deg": 205.1,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 0.9,
+      "attach_point": "adapter-ring"
+    },
+    {
+      "id": "frag-schist-58a",
+      "name": "Schist fragment 58a (fictional)",
+      "class": "fragment",
+      "mass_kg": 9.4,
+      "area_m2": 0.12,
+      "orbit": {
+        "altitude_km": 613.9,
+        "inclination_deg": 41.52,
+        "raan_deg": 15.6,
+        "arg_lat_deg": 44.2,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 61.0,
+      "attach_point": "none"
+    },
+    {
+      "id": "rb-flint-64",
+      "name": "Flint upper stage 64 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 1350.0,
+      "area_m2": 8.4,
+      "orbit": {
+        "altitude_km": 604.0,
+        "inclination_deg": 41.9,
+        "raan_deg": 16.4,
+        "arg_lat_deg": 88.3,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 1.4,
+      "attach_point": "adapter-ring"
+    },
+    {
+      "id": "rb-pumice-26",
+      "name": "Pumice upper stage 26 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 610.0,
+      "area_m2": 6.2,
+      "orbit": {
+        "altitude_km": 498.7,
+        "inclination_deg": 51.8,
+        "raan_deg": 130.4,
+        "arg_lat_deg": 12.7,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 2.9,
+      "attach_point": "adapter-ring",
+      "notes": "decays naturally inside the configured lifetime limit"
+    },
+    {
+      "id": "rb-obsidian-73",
+      "name": "Obsidian upper stage 73 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 1180.0,
+      "area_m2": 10.8,
+      "orbit": {
+        "altitude_km": 902.4,
+        "inclination_deg": 74.1,
+        "raan_deg": 320.6,
+        "arg_lat_deg": 78.9,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 1.1,
+      "attach_point": "grapple-fixture"
+    },
+    {
+      "id": "rb-cinder-90",
+      "name": "Cinder upper stage 90 (fictional)",
+      "class": "rocket-body",
+      "mass_kg": 1760.0,
+      "area_m2": 14.2,
+      "orbit": {
+        "altitude_km": 1860.0,
+        "inclination_deg": 98.6,
+        "raan_deg": 211.2,
+        "arg_lat_deg": 24.5,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 1.9,
+      "attach_point": "grapple-fixture",
+      "notes": "disposal above the protected region is the only compliant option"
+    },
+    {
+      "id": "pay-oriole-9",
+      "name": "Oriole payload 9 (fictional)",
+      "class": "payload",
+      "mass_kg": 780.0,
+      "area_m2": 6.4,
+      "orbit": {
+        "altitude_km": 617.6,
+        "inclination_deg": 41.72,
+        "raan_deg": 16.05,
+        "arg_lat_deg": 120.4,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 0.4,
+      "attach_point": "adapter-ring"
+    },
+    {
+      "id": "pay-lyric-3",
+      "name": "Lyric payload 3 (fictional)",
+      "class": "payload",
+      "mass_kg": 1260.0,
+      "area_m2": 9.8,
+      "orbit": {
+        "altitude_km": 553.9,
+        "inclination_deg": 53.22,
+        "raan_deg": 85.1,
+        "arg_lat_deg": 195.3,
+        "epoch_s": 0
+      },
+      "tumble_rate_deg_s": 0.2,
+      "attach_point": "adapter-ring"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-aurora-1",
+      "name": "Aurora 1 (fictional operator asset)",
+      "mass_kg": 1180.0,
+      "area_m2": 9.4,
+      "orbit": {
+        "altitude_km": 552.0,
+        "inclination_deg": 53.1,
+        "raan_deg": 84.5,
+        "arg_lat_deg": 12.0,
+        "epoch_s": 0
+      },
+      "maneuver": {
+        "delta_v_budget_mps": 12.0,
+        "thruster_type": "chemical",
+        "min_lead_time_s": 5400,
+        "max_burns_per_day": 4
+      },
+      "criticality": 5
+    },
+    {
+      "id": "asset-borealis-2",
+      "name": "Borealis 2 (fictional operator asset)",
+      "mass_kg": 940.0,
+      "area_m2": 7.8,
+      "orbit": {
+        "altitude_km": 706.5,
+        "inclination_deg": 98.2,
+        "raan_deg": 210.75,
+        "arg_lat_deg": 145.3,
+        "epoch_s": 0
+      },
+      "maneuver": {
+        "delta_v_budget_mps": 30.0,
+        "thruster_type": "electric",
+        "min_lead_time_s": 21600,
+        "max_burns_per_day": 2
+      },
+      "criticality": 4
+    },
+    {
+      "id": "asset-corvus-3",
+      "name": "Corvus 3 (fictional operator asset)",
+      "mass_kg": 640.0,
+      "area_m2": 5.2,
+      "orbit": {
+        "altitude_km": 618.0,
+        "inclination_deg": 41.6,
+        "raan_deg": 15.2,
+        "arg_lat_deg": 300.1,
+        "epoch_s": 0
+      },
+      "maneuver": {
+        "delta_v_budget_mps": 6.5,
+        "thruster_type": "cold-gas",
+        "min_lead_time_s": 900,
+        "max_burns_per_day": 8
+      },
+      "criticality": 3
+    }
+  ],
+  "chasers": [
+    {
+      "id": "chaser-halyard-1",
+      "name": "Halyard 1 (fictional removal vehicle)",
+      "dry_mass_kg": 1450.0,
+      "delta_v_budget_mps": 900.0,
+      "capture_slots": 3,
+      "docking_time_s": 43200,
+      "max_capture_mass_kg": 2600.0,
+      "max_tumble_rate_deg_s": 4.0,
+      "orbit": {
+        "altitude_km": 700.0,
+        "inclination_deg": 98.0,
+        "raan_deg": 210.0,
+        "arg_lat_deg": 0.0,
+        "epoch_s": 0
+      }
+    },
+    {
+      "id": "chaser-tether-2",
+      "name": "Tether 2 (fictional removal vehicle)",
+      "dry_mass_kg": 860.0,
+      "delta_v_budget_mps": 450.0,
+      "capture_slots": 2,
+      "docking_time_s": 21600,
+      "max_capture_mass_kg": 2000.0,
+      "max_tumble_rate_deg_s": 3.5,
+      "orbit": {
+        "altitude_km": 560.0,
+        "inclination_deg": 53.0,
+        "raan_deg": 84.0,
+        "arg_lat_deg": 0.0,
+        "epoch_s": 0
+      }
+    }
+  ],
+  "screening_volumes": [
+    {
+      "name": "standard",
+      "radial_km": 2.0,
+      "in_track_km": 25.0,
+      "cross_track_km": 2.0
+    },
+    {
+      "name": "fragment-tight",
+      "radial_km": 1.0,
+      "in_track_km": 12.0,
+      "cross_track_km": 1.0,
+      "applies_to_class": "fragment"
+    }
+  ]
+}

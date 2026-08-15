@@ -1,0 +1,5 @@
+.cache/
+.git/
+*.exe
+debrisledger
+RELEASE_REPORT.md
