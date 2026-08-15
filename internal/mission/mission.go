@@ -243,7 +243,9 @@ func planMission(sc *model.Scenario, cfg config.Config, ch model.Chaser,
 		}
 		disposal := compliance.PlanDisposal(cfg.Compliance, obj)
 		legDV := transfer.TotalDeltaV + cfg.Mission.CaptureMarginMps + disposal.DeltaVMps
-		if used+legDV > ch.DeltaVBudgetMps+1e-9 {
+		// A leg must fit inside the usable budget (total minus reserve), not the
+		// total budget: the reserve is held back for rendezvous slack and disposal.
+		if used+legDV > usable+1e-9 {
 			m.Legs = append(m.Legs, Leg{
 				Sequence:            seq + 1,
 				TargetID:            candidate.ObjectID,
